@@ -1,0 +1,21 @@
+.btn {
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 2px;
+    padding: 7px 30px;
+    font-size: larger;
+    cursor: pointer;
+    background-color: white;
+  
+    &:hover {
+      background-color: red;
+      color: white;
+      font-weight: 600;
+      box-shadow: 2px 2px 5px red;
+    }
+  
+    &:active {
+      box-shadow: none;
+    }
+  }
+  
